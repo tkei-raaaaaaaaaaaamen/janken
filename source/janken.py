@@ -8,6 +8,7 @@ lose = 0
 Tie = 0
 
 for _ in range(3):
+  P_hand[random.randint(0,2)]
 
 print("【最終結果】")
 if win > lose:
@@ -16,3 +17,4 @@ elif win < lose:
     print(f"あなた:{win}勝\nコンピュータ:{lose}勝\nコンピューターの総合勝利です!")
 else:
     print(f"あなた:{win}勝\nコンピュータ:{lose}勝\nあなたの引き分けです!")
+
